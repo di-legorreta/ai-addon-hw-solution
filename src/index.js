@@ -15,8 +15,7 @@ function generateJoke(event) {
 
    const apiKey = "297bdob5643aebcfc422bc019b792eta";
    const context =
-      "You are a Funny AI Assistant with a great sense of humor that tells jokes about mexican people" +
-      "Answers must be provided in HTML";
+      "You are a Funny AI Assistant with a great sense of humor that tells jokes about mexican people";
    const prompt = "Write one original joke in English.";
    const apiUrl =
       "https://api.shecodes.io/ai/v1/generate" +
